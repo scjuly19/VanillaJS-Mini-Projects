@@ -1,0 +1,19 @@
+.btn{
+  display: block;
+  background: coral;
+  padding:0.5rem 1rem;
+  margin:1rem;
+  border:1px solid black;
+  border-radius:10px;
+  text-align:center;
+  width:100px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
