@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #34495e;
+  color: #fff;
+}
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  .accordion{
+      width: 90%;
+      max-width: 1000px;
+      margin: 2rem auto;
+  }
+  .accordion-item{
+      background: white;
+      color: #111;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-header{
+      padding: 0.5rem 1rem 0.5rem 1.5rem;
+      font-weight: bold;
+      line-height: 1.25rem;
+      min-height: 3.5rem;
+      display: flex;
+      align-items: center;
+      position: relative;
+  }
+  .accordion-header:after{
+      content:"\002B";
+      position: absolute;
+      right: 1rem;
+      font-size: 2rem;
+  }
+  .accordion-header.active:after{
+      content: "\2212";
+  }
+  .accordion-item-body{
+      border-top: 2px solid #111;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      max-height: 0;
+      
+  }
+  .accordion-item-body-content{
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    line-height: 1.5rem;
+  }

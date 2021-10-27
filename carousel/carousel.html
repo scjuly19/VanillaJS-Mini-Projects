@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="carousel.css" rel="stylesheet" type="text/css" />
+
+    <title>Carousel</title>
+  </head>
+  <body>
+      <h1>Carousel</h1>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--prev"><</button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img src="images/slide-1.jpg" alt="" class="carousel__image"/>
+          </li>
+          <li class="carousel__slide">
+            <img src="images/slide-2.jpg" alt="" class="carousel__image" />
+          </li>
+          <li class="carousel__slide">
+            <img src="images/slide-3.jpg" alt="" class="carousel__image"/>
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--next">></button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator active"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+
+  </body>
+</html>
