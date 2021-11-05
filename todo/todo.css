@@ -2,6 +2,10 @@ body{
    
     background: #34495e;
 }
+h1{
+    color: white;
+    text-align: center;
+}
 .todo_container{
     width: 80%;
     margin: 1rem auto;
